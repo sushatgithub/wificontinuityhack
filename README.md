@@ -7,10 +7,12 @@ Installation steps
 1. Copy these (Check Connection.ps1 and Windows Schedular Taks Config.xml) files on local drive 
 
 2. Open Connection.ps1 and change this line
+
 <pre>
     <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "F:\netcon.ps1" -NoProfile -Noninteractive</Arguments>
 </pre>
     to 
+
 <pre>
     <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "yourlocaltion\netcon.ps1" -NoProfile -Noninteractive</Arguments>
 </pre>    
