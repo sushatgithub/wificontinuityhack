@@ -4,17 +4,17 @@ If your wifi connection drops continuously on windows for some reason, this hack
 
 Installation steps 
 
-1. Copy these (Check Connection.ps1 and Windows Schedular Taks Config.xml) files on local drive 
+1. Copy these (CheckConnection.ps1 and WindowsSchedularTaksConfig.xml) files on local drive 
 
 2. Open Connection.ps1 and change this line
 
 <pre>
-    <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "F:\netcon.ps1" -NoProfile -Noninteractive</Arguments>
+    <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "F:\CheckConnection.ps1" -NoProfile -Noninteractive</Arguments>
 </pre>
     to 
 
 <pre>
-    <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "yourlocaltion\netcon.ps1" -NoProfile -Noninteractive</Arguments>
+    <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "yourlocaltion\CheckConnection.ps1" -NoProfile -Noninteractive</Arguments>
 </pre>    
 3. Save and close
 4. Import Windows Schedular Taks Config.xml in your windows task schedular, change the name of the task if you want to and done.  
