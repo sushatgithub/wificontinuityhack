@@ -8,8 +8,11 @@ Installation steps
 
 2. Open Connection.ps1 and change this line 
     <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "F:\netcon.ps1" -NoProfile -Noninteractive</Arguments>
+
     to 
+
     <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "<yourlocaltion\netcon.ps1>" -NoProfile -Noninteractive</Arguments>
+    
 3. Save and close
 4. Import Windows Schedular Taks Config.xml in your windows task schedular, change the name of the task if you want to and done.  
 5. Disconnect your wifi connection and wait for a minute
