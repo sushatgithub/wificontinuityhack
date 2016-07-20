@@ -1,6 +1,7 @@
 <b>Wifi Continuity Hack</b>
 
-If your wifi connection drops continuously on windows for some reason, this hack might work. 
+If your wifi connection drops continuously on windows for some reason, and if you can't solve that with driver update. 
+This will help fix that problem. 
 
 Installation steps 
 
