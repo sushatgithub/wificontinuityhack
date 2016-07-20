@@ -1,4 +1,4 @@
-Wifi Continuity Hack
+<b>Wifi Continuity Hack</b>
 
 If your wifi connection drops continuously on windows for some reason, this hack might work. 
 
@@ -16,13 +16,6 @@ Installation steps
 <pre>
     <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "YOUR_LOCATION\CheckConnection.ps1 YOUR_SID" -NoProfile -Noninteractive</Arguments>
 </pre>   
-
-- Save and close
-- Open CheckConnection.ps1 and change 
-
-<pre>name=sankalp</pre>
-to 
-<pre>name=to_your_SID</pre>
 
 - Save and close
 - Import Windows Schedular Taks Config.xml in your windows task schedular, change the name of the task if you want to and done. 
