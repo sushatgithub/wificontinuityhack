@@ -9,12 +9,12 @@ Installation steps
 - Open WindowsSchedularTaksConfig.xml and change this line
 
 <pre>
-    <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "F:\CheckConnection.ps1" -NoProfile -Noninteractive</Arguments>
+    <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "F:\CheckConnection.ps1 sankalp" -NoProfile -Noninteractive</Arguments>
 </pre>
     to 
 
 <pre>
-    <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "your_localtion\CheckConnection.ps1" -NoProfile -Noninteractive</Arguments>
+    <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "YOUR_LOCATION\CheckConnection.ps1 YOUR_SID" -NoProfile -Noninteractive</Arguments>
 </pre>   
 
 - Save and close
