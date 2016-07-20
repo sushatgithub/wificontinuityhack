@@ -23,9 +23,10 @@ Installation steps
 to 
 <pre>name=to_your_SID</pre>
 
-4. Import Windows Schedular Taks Config.xml in your windows task schedular, change the name of the task if you want to and done.  
-5. Disconnect your wifi connection and wait for a minute
-6. It will work
+5. Save and close
+6. Import Windows Schedular Taks Config.xml in your windows task schedular, change the name of the task if you want to and done. 
+6. Disconnect your wifi connection and wait for a minute
+7. It will work
 
 
 PS : Better approach will be to create C# service with listener on wifi connection lost event and connect back. I might post this solution soon.
