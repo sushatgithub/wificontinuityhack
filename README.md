@@ -14,7 +14,7 @@ Installation steps
     to 
 
 <pre>
-    <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "yourlocaltion\CheckConnection.ps1" -NoProfile -Noninteractive</Arguments>
+    <Arguments>-ExecutionPolicy Bypass -WindowStyle Hidden  "your_localtion\CheckConnection.ps1" -NoProfile -Noninteractive</Arguments>
 </pre>    
 3. Save and close
 4. Open CheckConnection.ps1 and change 
