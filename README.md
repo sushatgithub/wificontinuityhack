@@ -21,7 +21,7 @@ Installation steps
 - Save and close
 - Import Windows Schedular Taks Config.xml in your windows task schedular, change the name of the task if you want to and done. 
 - Disconnect your wifi connection and wait for a minute
-- It will check wifi interface every minute 
+- It will check wifi interface every minute and connect if it disconnected
 
 
 PS : Better approach will be to create C# service with listener on wifi connection lost event and connect back. I might post this solution soon.
