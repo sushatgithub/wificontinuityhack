@@ -1,4 +1,5 @@
 Wifi Continuity Hack
+
 If your wifi connection drops continuously on windows for some reason, this hack might work. 
 Installation steps 
 1. Copy these (Check Connection.ps1 and Windows Schedular Taks Config.xml) files on local drive 
